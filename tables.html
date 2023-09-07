@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
                 <li><a href="tables.html" target="_self">Tables</a></li>
             </ul>
         </nav>
-        <h1>Tables and Forms</h1>
+        <h1>Alternate table types</h1>
     </header>
     <main>
 <!-- Div container for building tables with fixed size -->
@@ -52,8 +52,63 @@
 </div>
 <hr>
 <!-- Div container for building responsive tables -->
-<div id="table2"></div>
-
+<div id="table2">
+<!-- Responsive table that adjusts its width based on its parent container's width -->
+<table style="width: 100%;">
+    <h2>Responsive table using relative width values</h2>
+    <!-- Table header -->
+    <thead>
+        <tr>
+            <th>Header1</th>
+            <th>Header2</th>
+        </tr>
+    </thead>
+    <!-- Table body -->
+    <tbody>
+        <tr>
+            <td>Data 1.1</td>
+            <td>Data 1.2</td>
+        </tr>
+        <tr>
+            <td>Data 2.1</td>
+            <td>Data 2.2</td>
+        </tr>
+        <tr>
+            <td>Data 3.1</td>
+            <td>Data 3.2</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<hr>
+<!-- Div container for building responsive tables with merged cells -->
+<div id="table3">
+    <!-- Responsive table with merged cells -->
+    <table style="width: 100%;">
+        <h2>Responsive table with merged cells</h2>
+        <thead>
+            <tr>
+                <th rowspan="2">Header 1</th> <!-- Header cell that spans two rows vertically -->
+                <th colspan="2">Header 2</th> <!-- Header cell that spans two columns horizontally -->
+            </tr>
+        </thead>
+         <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Data 1.1</td>
+                <td>Data 1.2</td>
+            </tr>
+            <tr>
+                <td>Data 2.1</td>
+                <td>Data 2.2</td>
+            </tr>
+            <tr>
+                <td>Data 3.1</td>
+                <td>Data 3.2</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
     </main>
     <footer>
         <p> &copy;Carmona Family co. </p>
