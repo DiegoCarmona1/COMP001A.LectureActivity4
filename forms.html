@@ -44,63 +44,72 @@
             <br>
 
             <!-- Radio buttons for gender selection -->
-            <label for="male">Male:</label>
+            <label for="male">Male</label>
             <input type="radio" id="male" name="gender" value="male">
 
-            <label for="female">Female:</label>
+            <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="female">
 
             <br>
 
             <!-- Checkbox for newsletter subscription -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <label for="subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Dropdown select for country selection -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                    <!--... other options ...-->
+            </select>
+            <br>
+
+            <!-- Text area for additional comments -->
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- File input for uploading files -->
+            <label for="file">Upload your photo:</label>
+            <input type="file" id="file" name="file">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Hidden input field (not visible to users) -->
+            <input type="hidden" id="userId" name="userId" value="12345">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Range input for selecting a value within a range -->
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="10">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Date input for selecting a date -->
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Color iunput for selecting a color -->
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor">
 
             <br>
 
-            <!-- Label and text input field -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- Submit button to submit the form -->
+            <input type="submit" value="Submit">
 
-            <br>
+            <!-- Reset button to reset the form fields -->
+            <input type="reset" value="Reset">
 
         </form>
+        <!-- End of the form element -->
     </main>
     <footer>
         <p> &copy;Carmona Family co. </p>
